@@ -1,0 +1,52 @@
+.head {
+    min-height: 100%;
+    width: 100%;
+    background-image: url(images/donation2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arima', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text {
+    width: 90%;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.text p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+
+.donate-plan {
+    color: red;
+}
